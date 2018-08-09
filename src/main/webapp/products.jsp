@@ -37,9 +37,9 @@
 
 <table border="1">
     <tr>
-        <td style="font: caption">Id</td>
-        <td style="font: caption">Code</td>
-        <td style="font: caption">Name</td>
+        <td style="font-color:red">Id</td>
+        <td style="font-color:red">Code</td>
+        <td style="font-color:red">Name</td>
     </tr>
     <c:forEach items='${requestScope["products"]}' var="product">
         <tr>
